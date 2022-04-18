@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* @keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */
+
+.app-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.player-container {
+  width: 30%;
+  border: 1px solid limegreen;
+}
+
+.player-container-title {
+  margin: 0;
+  padding: 5px 0px 5px 0px;
+}
+
+.card-container {
+  padding: 10px;
+  margin: 80px 0px 30px 0px;
+  border: 1px solid #ff6666;
+}
+
+.player {
+  padding: 10px;
+  border: 1px solid #2d8659;
+  margin: 10px;
+}
+
+.target-container {
+  width: 40%;
+  /*min-height: 200px;*/
+  height: 800px;
+  border: 1px solid #4d94ff;
+}
+
+.target-container-title {
+  margin: 0;
+  padding: 5px 0px 5px 0px;
+}
+
+.trash-container {
+  width: 20%;
+  min-height: 200px;
+  border: 1px solid #ff6666;
+}
+
+.trash-container-title {
+  margin: 0;
+  padding: 5px 0px 5px 0px;
+}
+
+.trashcan {
+  padding: 10px;
+  border: 1px solid #ff6666;
+  margin: 10px;
+  /*min-height: 200px;*/
+  border-radius: 15px;
+  height: 200px;
+}
+
+.add-player-container {
+  width: 100%;
+  min-height: 200px;
+  border: 1px solid #D3D3D3;
+  margin-bottom: 30px;
+  padding: 10px;
+}
